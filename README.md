@@ -9,8 +9,8 @@ To execute Windows basic commands and batch scripting
 
 # WINDOWS COMMANDS:
 ```
-NAME:Dhana Lakshmi A
-REG.NO:212223040033
+NAME:HEMAVATHY S
+REG.NO:212223230076
 ```
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "MyLab" on the desktop.
@@ -55,30 +55,9 @@ mv Myfile.txt %userprofile%\Documents
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
 
 
-
-
-
-
-
 @echo off mkdir %userprofile%\Desktop\DocBackup copy %userprofile%\Documents*.docx %userprofile%\Desktop\DocBackup echo Backup completed successfully!
 ## OUTPUT
 ![image](https://github.com/Nandhakumar1313/Windows-basic-commands-batchscript/assets/120230694/404d9504-2a72-4f94-aaed-bc617279bb62)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # RESULT:
 The commands/batch files are executed successfully.
